@@ -4,9 +4,9 @@
 //
 
 #import "MRSafariAuthHandler.h"
-#import "NSError+MRSDK.h"
+#import "../utils/NSError+MRSDK.h"
 #import <SafariServices/SafariServices.h>
-#import "MRMailAuthRedirectURLParser.h"
+#import "../core/MRMailAuthRedirectURLParser.h"
 
 @interface MRSafariAuthHandler () <SFSafariViewControllerDelegate>
 @property (nonatomic, strong, readonly) MRMailAuthRedirectURLParser *redirectURLParser;
