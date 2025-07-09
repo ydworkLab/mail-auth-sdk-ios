@@ -7,7 +7,7 @@
 //
 
 #import "NSBundle+MRSDK.h"
-#import "MRMailSDK.h"
+#import "../MRMailSDK.h"
 
 @implementation NSBundle (MRSDK)
 
