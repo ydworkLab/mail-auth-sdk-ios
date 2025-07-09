@@ -11,9 +11,9 @@
 #import <SafariServices/SafariServices.h>
 
 #import "MRSafariSessionAuthHandler.h"
-#import "MRMailAuthRedirectURLParser.h"
+#import "../core/MRMailAuthRedirectURLParser.h"
 
-#import "NSError+MRSDK.h"
+#import "../utils/NSError+MRSDK.h"
 
 @interface MRSafariSessionAuthHandler ()
 @property (copy, nonatomic, readonly) NSString *redirectURI;
