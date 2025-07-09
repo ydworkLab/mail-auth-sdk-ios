@@ -4,9 +4,9 @@
 //
 
 #import "MRWebViewAuthHandler.h"
-#import "NSError+MRSDK.h"
+#import "../utils/NSError+MRSDK.h"
 #import "MRMailWebViewController.h"
-#import "MRMailAuthRedirectURLParser.h"
+#import "../core/MRMailAuthRedirectURLParser.h"
 
 @interface MRWebViewAuthHandler () <MRMailWebViewControllerDelegate>
 @property (nonatomic, strong, readonly) MRMailAuthRedirectURLParser *redirectURLParser;
