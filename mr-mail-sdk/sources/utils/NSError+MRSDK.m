@@ -4,7 +4,7 @@
 //
 
 #import "NSError+MRSDK.h"
-#import "MRMailSDKConstants.h"
+#import "../MRMailSDKConstants.h"
 
 @implementation NSError (MRSDK)
 
