@@ -10,7 +10,7 @@
 #import "MRSDKAuthorizationResult.h"
 #import "MRMailSDKConstants.h"
 
-#import "NSError+MRSDK.h"
+#import "../utils/NSError+MRSDK.h"
 
 @implementation MRSDKOAuthTokenResponseParser
 
