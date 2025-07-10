@@ -8,8 +8,8 @@
 
 #import "MRMailAuthRedirectURLParser.h"
 
-#import "NSURL+MRSDK.h"
-#import "NSError+MRSDK.h"
+#import "../utils/NSURL+MRSDK.h"
+#import "../utils/NSError+MRSDK.h"
 
 @interface MRMailAuthRedirectURLParser ()
 @property (copy, nonatomic, readonly) NSString *redirectURI;
