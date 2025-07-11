@@ -7,7 +7,6 @@
 //
 
 #import "MRMailSignInButton.h"
-#import "MRMailSDK.h"
 #import "../MRMailSDK.h"
 #import "../utils/NSBundle+MRSDK.h"
 @interface MRMailSignInButton ()
