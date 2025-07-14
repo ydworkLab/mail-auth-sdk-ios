@@ -1,6 +1,0 @@
-platform :ios, '9.0'
-
-target 'MRAuthorizationSample' do
-    pod 'MRMailSDK', :path => '../'
-end
-
