@@ -16,13 +16,14 @@ let package = Package(
     targets: [
         .target(
             name: "MRMailSDK",
-            path: "mr-mail-sdk/sources",
+            path: "mr-mail-sdk",
             publicHeadersPath: ".",
-              cSettings: [
-                .headerSearchPath("core"),
-                .headerSearchPath("utils"),
-                .headerSearchPath("ui"),
-                .headerSearchPath("mail-sign-in")
+          cSettings: [
+                .headerSearchPath("sources"),
+                .headerSearchPath("sources/core"),
+                .headerSearchPath("sources/utils"),
+                .headerSearchPath("sources/ui"),
+                .headerSearchPath("sources/mail-sign-in")
             ]
         )
     ]
